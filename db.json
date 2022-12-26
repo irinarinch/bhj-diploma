@@ -1,0 +1,1006 @@
+{
+  "users": [
+    {
+      "name": "demo",
+      "email": "demo@demo",
+      "password": "demo",
+      "id": "1"
+    },
+    {
+      "password": "1234",
+      "id": "nuz14glbrvxdbz"
+    },
+    {
+      "password": "1234",
+      "id": "nuz55wlbrw0g25"
+    },
+    {
+      "password": "abracadabra",
+      "id": "nuz2d4lbs8rwad"
+    },
+    {
+      "password": "abracadabra",
+      "id": "nuz5s4lbs8sqt2"
+    },
+    {
+      "password": "abracadabra",
+      "id": "nuz6kwlbs8wrbj"
+    },
+    {
+      "password": "abracadabra",
+      "id": "nuz6vclbs91g4l"
+    },
+    {
+      "password": "abracadabra",
+      "id": "nuz518lbs94k24"
+    },
+    {
+      "password": "abracadabra",
+      "id": "nuz4eslbs99rqh"
+    },
+    {
+      "password": "abracadabra",
+      "id": "nuz5lslbs9a1t3"
+    },
+    {
+      "password": "abracadabra",
+      "id": "nuz5f8lbs9avm3"
+    },
+    {
+      "password": "undefined",
+      "id": "nuz500lbs9c26n"
+    },
+    {
+      "password": "abracadabra",
+      "id": "nuz2nglbs9cuw8"
+    },
+    {
+      "password": "abracadabra",
+      "id": "nuz25glbsaj7gx"
+    },
+    {
+      "email": "test@test.ru",
+      "password": "abracadabra",
+      "id": "nuz28glbt67ei0"
+    },
+    {
+      "email": "ann@test.ru",
+      "password": "annannann",
+      "id": "nuz4xolbt6az1z"
+    },
+    {
+      "email": "kim@test.ru",
+      "password": "kimkim",
+      "id": "nuz6b0lbt71mqe"
+    },
+    {
+      "email": "raya@test.ru",
+      "password": "raya",
+      "id": "nuz6v4lbt78eq1"
+    },
+    {
+      "email": "irina@test.ru",
+      "password": "irina",
+      "id": "nuz6y4lbugdjwo"
+    },
+    {
+      "email": "vova@test",
+      "password": "vova",
+      "id": "nuz2oclbugetqn"
+    },
+    {
+      "email": "eva@test.ru",
+      "password": "eva",
+      "id": "nuz8m0lbugl6yo"
+    },
+    {
+      "email": "inna@test",
+      "password": "inna",
+      "id": "nuz14slbugr77m"
+    },
+    {
+      "email": "tom@test.ru",
+      "password": "tom",
+      "id": "nuz53olbugy33q"
+    },
+    {
+      "email": "asdf@asdf.ru",
+      "password": "asdf",
+      "id": "nuz4j4lbui9ah1"
+    },
+    {
+      "email": "r.irina87@mail.ru",
+      "password": "asdf",
+      "id": "nuzvklbuibbrp"
+    },
+    {
+      "email": "ron@test",
+      "password": "ron",
+      "id": "nuz5vglbuifvxp"
+    },
+    {
+      "email": "adws@asdf",
+      "password": "asdf",
+      "id": "nuz73glbujicfx"
+    },
+    {
+      "name": "tim",
+      "email": "tim@test.ru",
+      "password": "timtim",
+      "id": "nuz7j4lbz4ojm4"
+    },
+    {
+      "name": "dan",
+      "email": "dan@test.ru",
+      "password": "dandan",
+      "id": "nuz38slbz4ta47"
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Банк",
+      "user_id": "1",
+      "id": "1"
+    },
+    {
+      "name": "Магазин",
+      "user_id": "1",
+      "id": "2"
+    },
+    {
+      "name": "Бизнес",
+      "user_id": "1",
+      "id": "3"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz468lbzn1ap9"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz804lbzn5hf7"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz774lbzn9qrk"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz3o8lbznilvo"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz7gklbznv5u3"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz4wolbzo8mum"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz1volbzobnlv"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz8iwlbzoe9ht"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz7cslbzrsodw"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz2k0lbzrtaka"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz5twlbzrtlqm"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz3f0lbzrzk8w"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz82wlbzschh6"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz51clbztkery"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz8ewlbztnmhp"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz7nclbztoptg"
+    },
+    {
+      "user_id": "nuz38slbz4ta47",
+      "id": "nuz4fwlbzuchos"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz4q4lc1i2z04"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz88slc1i6rit"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz4gglc1ilb01"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz58klc1ipinq"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz54klc1yeed0"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz5t0lc1ykyln"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz5nklc1yn3nf"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz68slc1ynjt1"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz4jslc1ynmvm"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz7gclc1ynne3"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz4ywlc1ynny2"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz31klc1ynoay"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz76olc1ynonf"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz47clc20y8mp"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz1gglc20yc90"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz6b0lc216aid"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz2k4lc21akzi"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz5pglc21iuci"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz51glc21o2s8"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz680lc21q6sx"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz3cglc21q81g"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz1qolc21q8bj"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz1qolc21q8bx"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz10olc21q8p3"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz49clc21towb"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuzq8lc21tpnl"
+    },
+    {
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz5qclc21tq0g"
+    },
+    {
+      "name": "ZXC",
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz68slc21xtkz"
+    },
+    {
+      "name": "sdf",
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz78glc21yug7"
+    },
+    {
+      "name": "sdfsf",
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz748lc21yxqo"
+    },
+    {
+      "name": "s",
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz6u0lc22053c"
+    },
+    {
+      "name": "aa",
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz1dwlc220uza"
+    },
+    {
+      "name": "NEW",
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz4uglc23es1c"
+    },
+    {
+      "name": "Сбер",
+      "user_id": "nuz6y4lbugdjwo",
+      "id": "nuz1n8lc2576z2"
+    },
+    {
+      "name": "Тинькофф",
+      "user_id": "nuz6y4lbugdjwo",
+      "id": "nuz4vwlc257hbe"
+    },
+    {
+      "name": "new-dohod",
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz8o0lc2tuoqe"
+    },
+    {
+      "name": "qwerty",
+      "user_id": "nuz7j4lbz4ojm4",
+      "id": "nuz6l4lc3izoql"
+    },
+    {
+      "name": "sber",
+      "user_id": "nuz6b0lbt71mqe",
+      "id": "nuz6vklc47o089"
+    },
+    {
+      "name": "наличные",
+      "user_id": "nuz6b0lbt71mqe",
+      "id": "nuz260lc4cnx0a"
+    }
+  ],
+  "transactions": [
+    {
+      "account_id": "1",
+      "created_at": "2019-09-15 10:24:02",
+      "id": "1",
+      "name": "Кредит",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "1",
+      "created_at": "2019-09-17 15:53:02",
+      "id": "2",
+      "name": "Баланс на дебетовке",
+      "sum": 3200,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "1",
+      "created_at": "2019-09-19 20:12:02",
+      "id": "3",
+      "name": "Копилка",
+      "sum": 1500,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 16:23:02",
+      "id": "4",
+      "name": "Молочные продукты",
+      "sum": 100,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "5",
+      "name": "Фрукты",
+      "sum": 250,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "17",
+      "name": "Овощи",
+      "sum": 300,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 14:47:02",
+      "id": "6",
+      "name": "Мясо",
+      "sum": 600,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-27 13:27:02",
+      "id": "7",
+      "name": "Долг в банк",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "9",
+      "name": "На банду",
+      "sum": 15000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-17 13:27:02",
+      "id": "10",
+      "name": "На стволы",
+      "sum": 6000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-12-27 13:27:02",
+      "id": "11",
+      "name": "Прибыль с банка",
+      "sum": 1500000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "12",
+      "name": "Прибыль с магазина",
+      "sum": 300000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "13",
+      "name": "Подарок сизого",
+      "sum": 20000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-15 13:27:02",
+      "id": "14",
+      "name": "На охрану",
+      "sum": 60000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "15",
+      "name": "На бумер",
+      "sum": 300000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "id": "nuz894lc2x31lv",
+      "type": "income",
+      "name": "new-dohod",
+      "sum": 3000,
+      "account_id": "nuz68slc21xtkz",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T05:15:35.778Z"
+    },
+    {
+      "id": "nuz898lc2x7gxh",
+      "type": "income",
+      "name": "asdf",
+      "sum": 30,
+      "account_id": "nuz88slc1i6rit",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T05:19:02.260Z"
+    },
+    {
+      "id": "nuz6vslc2x8f3c",
+      "type": "income",
+      "name": "sdf",
+      "sum": 30,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T05:19:46.535Z"
+    },
+    {
+      "id": "nuz4p0lc2x9mxm",
+      "type": "income",
+      "name": "asdf",
+      "sum": 30,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T05:20:43.353Z"
+    },
+    {
+      "id": "nuz57clc2xavev",
+      "type": "income",
+      "name": "asdf",
+      "sum": 30,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T05:21:40.998Z"
+    },
+    {
+      "id": "nuz1wolc2xb359",
+      "type": "expense",
+      "name": "sdf",
+      "sum": 30,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T05:21:51.020Z"
+    },
+    {
+      "id": "nuz7l4lc2xfnpt",
+      "type": "income",
+      "name": "asdf",
+      "sum": 100,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T05:25:24.304Z"
+    },
+    {
+      "id": "nuz5dwlc2xfvyc",
+      "type": "income",
+      "name": "asdf",
+      "sum": 30.3,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T05:25:34.979Z"
+    },
+    {
+      "id": "nuz7o4lc2xghsu",
+      "type": "income",
+      "name": "asdf",
+      "sum": 20.31,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T05:26:03.293Z"
+    },
+    {
+      "id": "nuz3gwlc2xgt57",
+      "type": "income",
+      "name": "asdf",
+      "sum": 10.39,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T05:26:17.994Z"
+    },
+    {
+      "id": "nuz41wlc35wczy",
+      "type": "income",
+      "name": "sdf",
+      "sum": 100,
+      "account_id": "nuz88slc1i6rit",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T09:22:20.493Z"
+    },
+    {
+      "id": "nuz2b4lc36u3ra",
+      "type": "income",
+      "name": "sdf",
+      "sum": 30,
+      "account_id": "nuz4uglc23es1c",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T09:48:34.821Z"
+    },
+    {
+      "id": "nuz4swlc36w5rd",
+      "type": "income",
+      "name": "tim",
+      "sum": 3000,
+      "account_id": "nuz4uglc23es1c",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T09:50:10.729Z"
+    },
+    {
+      "id": "nuz4a4lc371bb3",
+      "type": "expense",
+      "name": "tim",
+      "sum": 30,
+      "account_id": "nuz4uglc23es1c",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T09:54:11.198Z"
+    },
+    {
+      "id": "nuz4kclc376dvd",
+      "type": "income",
+      "name": "sfdg",
+      "sum": 100,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T09:58:07.800Z"
+    },
+    {
+      "id": "nuz5iclc39h3rq",
+      "type": "income",
+      "name": "asdf",
+      "sum": 100,
+      "account_id": "nuz68slc21xtkz",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T11:02:27.157Z"
+    },
+    {
+      "id": "nuz8eglc39rps5",
+      "type": "income",
+      "name": "tim",
+      "sum": 20.02,
+      "account_id": "nuz68slc21xtkz",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T11:10:42.244Z"
+    },
+    {
+      "id": "nuz85wlc3dm9li",
+      "type": "expense",
+      "name": "ыва",
+      "sum": 30,
+      "account_id": "nuz68slc21xtkz",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T12:58:26.453Z"
+    },
+    {
+      "id": "nuz14klc3dnkvm",
+      "type": "income",
+      "name": "sdf",
+      "sum": 30,
+      "account_id": "nuz68slc21xtkz",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T12:59:27.729Z"
+    },
+    {
+      "id": "nuz3aclc3donrv",
+      "type": "income",
+      "name": "asdf",
+      "sum": 3000,
+      "account_id": "nuz68slc21xtkz",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T13:00:18.138Z"
+    },
+    {
+      "id": "nuz150lc3drmda",
+      "type": "expense",
+      "name": "tim",
+      "sum": 1000,
+      "account_id": "nuz68slc21xtkz",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T13:02:36.285Z"
+    },
+    {
+      "id": "nuz5owlc3h8u2r",
+      "type": "income",
+      "name": "sdf",
+      "sum": 30,
+      "account_id": "nuz68slc21xtkz",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T14:39:58.274Z"
+    },
+    {
+      "id": "nuz1i4lc3h9ey2",
+      "type": "expense",
+      "name": "sdf",
+      "sum": 100,
+      "account_id": "nuz68slc21xtkz",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T14:40:25.321Z"
+    },
+    {
+      "id": "nuz6oslc3hfhku",
+      "type": "income",
+      "name": "asdf",
+      "sum": 111,
+      "account_id": "nuz68slc21xtkz",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T14:45:08.669Z"
+    },
+    {
+      "id": "nuz4q4lc3hgnmk",
+      "type": "expense",
+      "name": "sdf",
+      "sum": 3000,
+      "account_id": "nuz68slc21xtkz",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T14:46:03.163Z"
+    },
+    {
+      "id": "nuz4p4lc3hyjal",
+      "type": "income",
+      "name": "asdf",
+      "sum": 10,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T14:59:57.356Z"
+    },
+    {
+      "id": "nuz1bclc3hyw1b",
+      "type": "income",
+      "name": "asdf",
+      "sum": 30,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T15:00:13.870Z"
+    },
+    {
+      "id": "nuz8islc3i0obt",
+      "type": "income",
+      "name": "sdf",
+      "sum": 3000,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T15:01:37.192Z"
+    },
+    {
+      "id": "nuz6hclc3i28sq",
+      "type": "expense",
+      "name": "sdf",
+      "sum": 2000,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T15:02:50.377Z"
+    },
+    {
+      "id": "nuz6j8lc3iot6o",
+      "type": "income",
+      "name": "asdf",
+      "sum": 30,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T15:20:23.231Z"
+    },
+    {
+      "id": "nuz38clc3j3ksv",
+      "type": "expense",
+      "name": "asdf",
+      "sum": 3000,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T15:31:52.206Z"
+    },
+    {
+      "id": "nuz84klc3j7amr",
+      "type": "income",
+      "name": "asdf",
+      "sum": 3000,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T15:34:45.650Z"
+    },
+    {
+      "id": "nuz5wklc3jjl1r",
+      "type": "income",
+      "name": "asdf",
+      "sum": 30,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T15:44:19.022Z"
+    },
+    {
+      "id": "nuz7vclc3jl8ms",
+      "type": "expense",
+      "name": "sdf",
+      "sum": 30,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T15:45:36.243Z"
+    },
+    {
+      "id": "nuz65olc3jmjsg",
+      "type": "income",
+      "name": "sdf",
+      "sum": 30,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T15:46:37.359Z"
+    },
+    {
+      "id": "nuz7oolc3jneev",
+      "type": "income",
+      "name": "asdf",
+      "sum": 3000,
+      "account_id": "nuz68slc1ynjt1",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T15:47:17.046Z"
+    },
+    {
+      "id": "nuz6uclc3jp07k",
+      "type": "expense",
+      "name": "asdf",
+      "sum": 30,
+      "account_id": "nuz4q4lc1i2z04",
+      "user_id": "nuz7j4lbz4ojm4",
+      "created_at": "2022-12-25T15:48:31.951Z"
+    },
+    {
+      "id": "nuz4vclc47p21a",
+      "type": "income",
+      "name": "sdf",
+      "sum": 30,
+      "account_id": "nuz6vklc47o089",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T03:00:25.101Z"
+    },
+    {
+      "id": "nuz4xclc48asyz",
+      "type": "expense",
+      "name": "sdf",
+      "sum": 10.39,
+      "account_id": "nuz6vklc47o089",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T03:17:19.786Z"
+    },
+    {
+      "id": "nuz7uglc492w75",
+      "type": "income",
+      "name": "tim",
+      "sum": 100,
+      "account_id": "nuz6vklc47o089",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T03:39:10.336Z"
+    },
+    {
+      "id": "nuz4mclc49q7f5",
+      "type": "income",
+      "name": "asdf",
+      "sum": 30,
+      "account_id": "nuz6vklc47o089",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T03:57:17.968Z"
+    },
+    {
+      "id": "nuz7z0lc49qftu",
+      "type": "income",
+      "name": "asdf",
+      "sum": 30,
+      "account_id": "nuz6vklc47o089",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T03:57:28.865Z"
+    },
+    {
+      "id": "nuz7y8lc49rueh",
+      "type": "expense",
+      "name": "sdf",
+      "sum": 50,
+      "account_id": "nuz6vklc47o089",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T03:58:34.408Z"
+    },
+    {
+      "id": "nuz53olc4a1ukz",
+      "type": "income",
+      "name": "asdf",
+      "sum": 100,
+      "account_id": "nuz6vklc47o089",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T04:06:21.202Z"
+    },
+    {
+      "id": "nuzz8lc4apjy1",
+      "type": "expense",
+      "name": "asdf",
+      "sum": 30,
+      "account_id": "nuz6vklc47o089",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T04:24:47.160Z"
+    },
+    {
+      "id": "nuz7iglc4atvzu",
+      "type": "income",
+      "name": "sdf",
+      "sum": 30,
+      "account_id": "nuz6vklc47o089",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T04:28:09.401Z"
+    },
+    {
+      "id": "nuz3gslc4co8nu",
+      "type": "income",
+      "name": "sdf",
+      "sum": 30,
+      "account_id": "nuz260lc4cnx0a",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T05:19:45.113Z"
+    },
+    {
+      "id": "nuz3fklc4dj8r2",
+      "type": "income",
+      "name": "sdf",
+      "sum": 3000,
+      "account_id": "nuz6vklc47o089",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T05:43:51.565Z"
+    },
+    {
+      "id": "nuz86wlc4do8pu",
+      "type": "expense",
+      "name": "sdf",
+      "sum": 30,
+      "account_id": "nuz6vklc47o089",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T05:47:44.801Z"
+    },
+    {
+      "id": "nuz700lc4dpupi",
+      "type": "expense",
+      "name": "asdf",
+      "sum": 300,
+      "account_id": "nuz6vklc47o089",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T05:48:59.957Z"
+    },
+    {
+      "id": "nuz7mslc4fcgdk",
+      "type": "income",
+      "name": "asdf",
+      "sum": 3000,
+      "account_id": "nuz6vklc47o089",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T06:34:34.087Z"
+    },
+    {
+      "id": "nuz2kklc4fnibv",
+      "type": "expense",
+      "name": "asdf",
+      "sum": 30,
+      "account_id": "nuz260lc4cnx0a",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T06:43:09.834Z"
+    },
+    {
+      "id": "nuz6p8lc4fnvny",
+      "type": "income",
+      "name": "tim",
+      "sum": 30.3,
+      "account_id": "nuz260lc4cnx0a",
+      "user_id": "nuz6b0lbt71mqe",
+      "created_at": "2022-12-26T06:43:27.117Z"
+    }
+  ]
+}
