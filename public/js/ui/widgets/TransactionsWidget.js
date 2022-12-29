@@ -13,6 +13,7 @@ class TransactionsWidget {
    * */
   constructor(element){
     this.element = element;
+
     if (!element) {
       throw new Error('Ошибка, нет элемента');
     }
@@ -35,3 +36,5 @@ class TransactionsWidget {
     });
   }
 }
+
+//+

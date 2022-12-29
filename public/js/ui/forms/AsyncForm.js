@@ -1,5 +1,3 @@
-
-
 /**
  * Класс AsyncForm управляет всеми формами
  * приложения, которые не должны быть отправлены с
@@ -16,6 +14,7 @@ class AsyncForm {
    * */
   constructor(element) {
     this.element = element;
+
     if (!element) {
       throw new Error('Ошибка, нет элемента');
     }
@@ -31,7 +30,6 @@ class AsyncForm {
     this.element.addEventListener('submit', (e) => {
       e.preventDefault();
       this.submit();
-      
     });
   }
 
@@ -44,17 +42,7 @@ class AsyncForm {
    * */
   getData() {
     const formData = new FormData(this.element);
-    const entries = formData.entries();
-    let data = {};
-    for (let item of entries) {
-      const key = item[0];
-      const value = item[1];
-      
-      data[`${key}`] = `${value}`;
-    } 
-    
-    return data;
-      
+    return Object.fromEntries(formData.entries());    
   }
 
   onSubmit(options){
@@ -67,8 +55,7 @@ class AsyncForm {
    * */
   submit() {
     this.onSubmit(this.getData());
-    
   }
 }
 
-// boloho
+// +

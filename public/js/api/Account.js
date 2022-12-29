@@ -13,10 +13,16 @@ class Account extends Entity {
     createRequest({
       url: this.URL + `/${id}`,
       method: 'GET',
-      data: User.current(),
-      callback: (err, response) => {
-        callback(err, response)
-      }
+      callback,      
     });
   }
 }
+
+/*
+
+В исходном коде было так: static get(id = '', callback)
+Почему id = ''? Это что, указание на то, что id должен быть строкой?
+Никакой ошибки не возникает, если при этом передать, допустим, массив с единственным значением id.
+Если я делаю так: static get(id, callback), ничего не меняется. 
+
+*/

@@ -13,6 +13,7 @@ class UserWidget {
    * */
   constructor(element){
     this.element = element;
+
     if (!element) {
       throw new Error('Ошибка, нет элемента');
     }
@@ -27,9 +28,9 @@ class UserWidget {
    * */
   update(){    
     if (User.current()) { 
-           
-      this.element.querySelector('.user-name').textContent = User.current().name;
-      // не понимаю есть ли еще способ найти юзер-нейм у элемента
+      this.element.querySelector('.user-name').textContent = User.current().name;      
     }
   }
 }
+
+//+

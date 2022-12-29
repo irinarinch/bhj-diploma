@@ -1,4 +1,3 @@
-
 /**
  * Класс Sidebar отвечает за работу боковой колонки:
  * кнопки скрытия/показа колонки в мобильной версии сайта
@@ -19,9 +18,9 @@ class Sidebar {
    * при нажатии на кнопку .sidebar-toggle
    * */
   static initToggleButton() {
-    const sidebar_toggle_button = document.querySelector('.sidebar-toggle');
+    const sidebarToggleButton = document.querySelector('.sidebar-toggle');
 
-    sidebar_toggle_button.addEventListener('click', (e) => {
+    sidebarToggleButton.addEventListener('click', (e) => {
       e.preventDefault();
 
       document.body.classList.toggle('sidebar-open');
@@ -37,13 +36,13 @@ class Sidebar {
    * выходу устанавливает App.setState( 'init' )
    * */
   static initAuthLinks() {
-    const register_button = document.querySelector('.menu-item_register');
-    const login_button = document.querySelector('.menu-item_login');
-    const logout_button = document.querySelector('.menu-item_logout');
+    const registerButton = document.querySelector('.menu-item_register');
+    const loginButton = document.querySelector('.menu-item_login');
+    const logoutButton = document.querySelector('.menu-item_logout');
 
-    register_button.addEventListener('click', openRegisterModal);
-    login_button.addEventListener('click', openLoginModal);
-    logout_button.addEventListener('click', logout)
+    registerButton.addEventListener('click', openRegisterModal);
+    loginButton.addEventListener('click', openLoginModal);
+    logoutButton.addEventListener('click', logout)
     
     function openRegisterModal(e) {
       e.preventDefault();      
@@ -59,10 +58,12 @@ class Sidebar {
       e.preventDefault();      
       User.logout((err, response) => {
         if (response.success) {
-          App.setState( 'init' );
+          App.setState('init');
         }
       });
     }
   }
 }
+
+//+
 

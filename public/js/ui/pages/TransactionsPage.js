@@ -10,14 +10,14 @@ class TransactionsPage {
    * Сохраняет переданный элемент и регистрирует события
    * через registerEvents()
    * */
-  constructor( element ) {
+  constructor(element) {
+    this.lastOptions;
     this.element = element;
+
     if (!element) {
       throw new Error('Ошибка, нет элемента');
     }
-
-    this.lastOptions;
-
+    
     this.registerEvents();
   }
 
@@ -39,9 +39,9 @@ class TransactionsPage {
       if (e.target.closest('.remove-account')) {       
         this.removeAccount();        
       } else if (e.target.closest('.transaction__remove')) {
-        this.removeTransaction(); 
+        this.removeTransaction(e.target.closest('.transaction__remove').getAttribute('data-id')); 
       }
-    })
+    });
   }
 
   /**
@@ -59,14 +59,13 @@ class TransactionsPage {
     }
 
     if (confirm('Вы действительно хотите удалить счёт?')) {
-      Account.remove(this.lastOptions.account_id, (err, response) => { // почему-то возвращается false
+      Account.remove({id: this.lastOptions.account_id}, (err, response) => {
         if (response.success) {
-          this.clear([]);
+          this.clear();
           App.updateWidgets();
           App.updateForms();
         }
       });
-      
     }
   }
 
@@ -76,8 +75,14 @@ class TransactionsPage {
    * По удалению транзакции вызовите метод App.update(),
    * либо обновляйте текущую страницу (метод update) и виджет со счетами
    * */
-  removeTransaction( id ) {
-
+  removeTransaction(id) {
+    if (confirm('Вы действительно хотите удалить эту транзакцию?')) {
+      Transaction.remove({id: id}, (err, response) => { 
+        if (response.success) {
+          App.update();
+        }
+      });
+    }
   }
 
   /**
@@ -90,23 +95,18 @@ class TransactionsPage {
     if (!options) {
       return;
     }
+
     this.lastOptions = options;
+
     Account.get(options.account_id, (err, response) => {
       if (response.success) {
         this.renderTitle(response.data.name);
-        console.log(response.data)
-        console.log(options)
-        
       }
     });
     
-    Transaction.list(options.account_id, (err, response) => {
-      console.log(response)
-      this.renderTransactions(response.data) // почему-то возвращается пустой массив в data
-    })
-    
-
-    
+    Transaction.list({account_id: options.account_id}, (err, response) => {
+      this.renderTransactions(response.data); 
+    });
   }
 
   /**
@@ -117,63 +117,83 @@ class TransactionsPage {
   clear() {
     this.renderTransactions([]);
     this.renderTitle('Название счёта');
+    this.lastOptions = undefined;
   }
 
   /**
    * Устанавливает заголовок в элемент .content-title
    * */
-  renderTitle(name){ //+
+  renderTitle(name) { 
     this.element.querySelector('.content-title').textContent = name; 
   }
   /**
    * Форматирует дату в формате 2019-03-10 03:20:41 (строка)
    * в формат «10 марта 2019 г. в 03:20»
    * */
-  formatDate(date){
-
+  formatDate(date) {
+    const ourDate = new Date(date);
+    const dateOptions = {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',      
+    };
+    const timeOptions = {     
+      hour: 'numeric',
+      minute: 'numeric',
+    };
+    
+    return ourDate.toLocaleString('ru', dateOptions) + ' в ' + ourDate.toLocaleString('ru', timeOptions);
   }
 
   /**
    * Формирует HTML-код транзакции (дохода или расхода).
    * item - объект с информацией о транзакции
    * */
-  getTransactionHTML(item){
+  getTransactionHTML(item) {
     const code =  `
-      <div class="transaction transaction_expense row">
+      <div class="transaction transaction_${item.type} row">
         <div class="col-md-7 transaction__details">
           <div class="transaction__icon">
               <span class="fa fa-money fa-2x"></span>
           </div>
           <div class="transaction__info">
-              <h4 class="transaction__title">${item.name}</h4>
-              <!-- дата -->
-              <div class="transaction__date">${item.created_at}</div>
+              <h4 class="transaction__title">${item.name}</h4>             
+              <div class="transaction__date">${this.formatDate(item.created_at)}</div>
           </div>
         </div>
         <div class="col-md-3">
           <div class="transaction__summ">
-          <!--  сумма -->
-          ${item.sum} <span class="currency">₽</span>
+          ${new Intl.NumberFormat("ru", {style: "currency", currency: "RUB"}).format(item.sum)} <span class="currency"></span>
           </div>
         </div>
         <div class="col-md-2 transaction__controls">
-            <!-- в data-id нужно поместить id -->
             <button class="btn btn-danger transaction__remove" data-id="${item.id}">
                 <i class="fa fa-trash"></i>  
             </button>
         </div>
       </div>
-    `
-  return code;   
+    `;
+    
+    return code;   
   }
 
   /**
    * Отрисовывает список транзакций на странице
    * используя getTransactionHTML
    * */
-  renderTransactions(data){    
-    for (let i = 0; i < data.length; i += 1) {
-      this.element.insertAdjacentHTML('beforeend', this. getTransactionHTML(data[i]));
-    }  
+  renderTransactions(data) {
+    const transactionsListCode = data.reduce((acc, item) => acc + this.getTransactionHTML(item), ``);
+    const content = this.element.querySelector('.content');
+
+    content.innerHTML = transactionsListCode;
   }
 }
+
+
+/*
+
+Как узнать вызывался ли раньше метод render()? Или как еще проверить передавались ли ему ранее данные options? 
+Ведь если передавались - значит в this.lastOptions есть значение, так?
+В методе clear не придумала ничего лучше чем this.lastOptions = undefined, чтобы удалить содержимое из this.lastOptions.
+
+*/

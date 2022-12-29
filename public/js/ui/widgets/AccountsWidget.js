@@ -15,6 +15,7 @@ class AccountsWidget {
    * */
   constructor(element){
     this.element = element;
+
     if (!element) {
       throw new Error('Ошибка, нет элемента');
     }
@@ -30,16 +31,14 @@ class AccountsWidget {
    * (которые отображены в боковой колонке),
    * вызывает AccountsWidget.onSelectAccount()
    * */
-  registerEvents() {
-    this.element.querySelector('.create-account').addEventListener('click', () => {
-      App.getModal('createAccount').open();       
-    });
-
+  registerEvents() { 
     this.element.addEventListener('click', (e) => {
       if (e.target.closest('.account')) {
-        this.onSelectAccount(e.target.closest('.account'));
+        this.onSelectAccount(e.target.closest('.account'));        
+      } else if (e.target.closest('.create-account')) {        
+        App.getModal('createAccount').open();       
       }
-    })
+    });
   }
 
   /**
@@ -81,12 +80,12 @@ class AccountsWidget {
    * счёта класс .active.
    * Вызывает App.showPage( 'transactions', { account_id: id_счёта });
    * */
-  onSelectAccount( element ) {
+  onSelectAccount(element) {
     if (this.element.querySelector('.active')) {
       this.element.querySelector('.active').classList.remove('active');
     }    
     element.classList.add('active');
-    App.showPage( 'transactions', { account_id: element.getAttribute('data-id') });    
+    App.showPage('transactions', {account_id: element.getAttribute('data-id')});    
   }
 
   /**
@@ -99,7 +98,7 @@ class AccountsWidget {
       <li class="account" data-id="${item.id}">
         <a href="#">
           <span>${item.name}</span> /
-          <span>${item.sum} ₽</span>
+          <span>${new Intl.NumberFormat("ru", {style: "currency", currency: "RUB"}).format(item.sum)}</span>
         </a>
       </li>
     `
@@ -112,9 +111,13 @@ class AccountsWidget {
    * AccountsWidget.getAccountHTML HTML-код элемента
    * и добавляет его внутрь элемента виджета
    * */
-  renderItem(data) {    
-    for (let i = 0; i < data.length; i += 1) {
-      this.element.insertAdjacentHTML('beforeend', this.getAccountHTML(data[i]));
-    }    
+  renderItem(data) {
+    const accountsListCode = data.reduce((acc, item) => acc + this.getAccountHTML(item), ``);
+    this.element.insertAdjacentHTML('beforeend', accountsListCode);
   }
 }
+
+/* в методе update, в Account.list первым аргументом (data) почему-то передаю User.current(), 
+хотя там любой объект можно передать и response не изменится.
+Не понимаю что именно туда на самом деле надо передать. Нигде не написано, или я не вижу.
+*/
